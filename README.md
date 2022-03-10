@@ -1,2 +1,2 @@
-# Reverse-Engineer
-Bagi Bagi Script Premium Gratis Biar Kalian Tidak Membuang Buang Uang Kalian
+# WARNING WARNA KUNING HEHE
+Jangan di perjual Kan Ya Kontol
