@@ -226,7 +226,7 @@ def moch_yayan():
     print(' [%s06%s]. Crack id dari komentar postingan'%(O,N));time.sleep(0.03)
     print(' [%s07%s]. Checkpoint detedtor'%(O,N));time.sleep(0.03)
     print(' [%s08%s]. Settings user agent'%(O,N));time.sleep(0.03)
-    print(' [%s9%s]. Check hasil crack'%(O,N));time.sleep(0.03)
+    print(' [%s09%s]. Check hasil crack'%(O,N));time.sleep(0.03)
     print(' [%s10%s]. Upgrade ke%s premium%s'%(O,N,H,N));time.sleep(0.03)
     print(' [%s00%s]. logout (%shapus cookie%s)'%(M,N,M,N));time.sleep(0.03)
     pepek = input('\n [%s*%s] menu : '%(H,N))
