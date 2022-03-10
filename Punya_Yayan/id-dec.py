@@ -224,11 +224,10 @@ def moch_yayan():
     print(' [%s04%s]. Crack id dari like postingan'%(O,N));time.sleep(0.03)
     print(' [%s05%s]. Crack id dari random id massal'%(O,N));time.sleep(0.03)
     print(' [%s06%s]. Crack id dari komentar postingan'%(O,N));time.sleep(0.03)
-    print(' [%s07%s]. Crack akun instagram [%snew%s]'%(O,N,H,N));time.sleep(0.03)
-    print(' [%s08%s]. Checkpoint detedtor'%(O,N));time.sleep(0.03)
-    print(' [%s09%s]. Settings user agent'%(O,N));time.sleep(0.03)
-    print(' [%s10%s]. Check hasil crack'%(O,N));time.sleep(0.03)
-    print(' [%s11%s]. Upgrade ke%s premium%s'%(O,N,H,N));time.sleep(0.03)
+    print(' [%s07%s]. Checkpoint detedtor'%(O,N));time.sleep(0.03)
+    print(' [%s08%s]. Settings user agent'%(O,N));time.sleep(0.03)
+    print(' [%s9%s]. Check hasil crack'%(O,N));time.sleep(0.03)
+    print(' [%s10%s]. Upgrade ke%s premium%s'%(O,N,H,N));time.sleep(0.03)
     print(' [%s00%s]. logout (%shapus cookie%s)'%(M,N,M,N));time.sleep(0.03)
     pepek = input('\n [%s*%s] menu : '%(H,N))
     if pepek == '':
@@ -334,18 +333,10 @@ def moch_yayan():
         if todz == 'Trial':
             jalan(f"\n{N} [{M}×{N}] anda adalah user trial cuma bisa menggunakan menu nomor {M}02.{N} upgrade ke premium untuk menikmati semua fiture...");exit()
         else:
-            log_igeh()
-            menu_igeh()
-    elif pepek in['8','08']:
-        req = requests.get(f"https://apikey.yayanxd.my.id/check.php?key={key}").json()
-        todz = req['pay_key']
-        if todz == 'Trial':
-            jalan(f"\n{N} [{M}×{N}] anda adalah user trial cuma bisa menggunakan menu nomor {M}02.{N} upgrade ke premium untuk menikmati semua fiture...");exit()
-        else:
             gabut()
-    elif pepek in['9','09']:
+    elif pepek in['8','08']:
         seting_yntkts()
-    elif pepek in['10']:
+    elif pepek in['9','09']:
         dirs = os.listdir("results")
         print('\n [ hasil crack yang tersimpan di file anda ]\n')
         for file in dirs:
@@ -365,7 +356,7 @@ def moch_yayan():
             print("%s%s"%(titid,N));time.sleep(0.03)
         print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
         input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
-    elif pepek in['11']:
+    elif pepek in['10','10']:
         jalan(f"\n {H}  >>> Dapatkan user premium untuk menikmati semua fiture!!<<<{N}\n")
         upd = input(" [?] apakah ingin upgrade ke premium [Y/t]: ")
         if upd =="":
